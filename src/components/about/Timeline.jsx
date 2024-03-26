@@ -53,7 +53,7 @@ const Timeline = ({ data }) => {
                   className="see_more_details"
                   onClick={() => handleClick(index)}
                 >
-                  {open === index ? "+" : "-"}
+                  {open === index ? "-" : "+"}
                 </p>
               </div>
               <motion.div
