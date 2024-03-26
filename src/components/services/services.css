@@ -1,0 +1,133 @@
+
+
+/* ----------------------------------------- */
+.service_swiper {
+  height: 100%;
+}
+.service_swiper_slide {
+  padding-bottom: 2.5rem;
+}
+.swiper-pagination {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-pagination-bullet {
+  background: #fff !important;
+  border: 1px solid var(--bluish) !important;
+  opacity: 1 !important;
+  height: 10px !important;
+  width: 10px !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: var(--bluish) !important;
+}
+/* ----------------------------------------- */
+.services {
+  height: 100%;
+}
+.services_container {
+  max-width: 100%;
+  margin: 2.5rem 0;
+}
+.service_img_wrapper {
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--white);
+  border-radius: 1rem;
+}
+.service_img {
+  border-radius: 1rem;
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+.service_wrapper {
+  position: relative;
+}
+.service_details_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  inset: 0;
+  padding: 4rem 2rem;
+  opacity: 0;
+  background: linear-gradient(to bottom, #edf3d8, #f9e1e1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: all 0.6s ease-in-out;
+  transform: scale(0.2);
+}
+.service_wrapper:hover .service_details_wrapper {
+  opacity: 1;
+  transform: scale(1);
+}
+.service_name,
+.service_desc,
+.service_charge {
+  font-family: var(--poppins);
+}
+.service_name {
+  font-size: var(--fs-2);
+  color: var(--bluish);
+  font-weight: 500;
+}
+.service_desc {
+  font-size: var(--fs-5);
+  color: var(--light-gray);
+  font-weight: 500;
+}
+.service_charge {
+  font-size: var(--fs-3);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1320px) {
+  .service_details_wrapper {
+    padding: 1rem;
+    gap: 10px;
+  }
+
+  .service_name,
+  .service_charge {
+    font-size: var(--fs-4);
+  }
+  .service_desc {
+    font-size: var(--fs-6);
+  }
+}
+@media screen and (max-width: 1024px) {
+ 
+  .service_details_wrapper {
+    padding: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .service_details_wrapper {
+    gap: 20px;
+  }
+
+  .service_name {
+    font-size: var(--fs-2);
+  }
+  .service_desc {
+    font-size: var(--fs-5);
+  }
+  .service_charge {
+    font-size: var(--fs-3);
+  }
+}
+@media screen and (max-width: 350px) {
+  .service_details_wrapper {
+    gap: 10px;
+  }
+
+  .service_name,
+  .service_charge {
+    font-size: var(--fs-4);
+  }
+  .service_desc {
+    font-size: var(--fs-6);
+  }
+}

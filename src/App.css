@@ -1,0 +1,50 @@
+.App {
+  padding: 0 6rem;
+}
+.section {
+  padding: 5rem 0;
+}
+.title,
+.subtitle {
+  text-align: center;
+  letter-spacing: 2px;
+}
+.title {
+  font-size: var(--fs-1);
+  text-transform: uppercase;
+  font-family: var(--poppins);
+}
+.subtitle {
+  font-size: var(--fs-3);
+  font-family: var(--satisfy);
+  text-transform: capitalize;
+  color: var(--bluish);
+}
+
+@media screen and (max-width: 1024px) {
+  .App {
+    padding: 0 4rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .App {
+    padding: 0 2rem;
+  }
+  .title {
+    font-size: var(--fs-3);
+  }
+  .subtitle {
+    font-size: var(--fs-4);
+  }
+}
+@media screen and (max-width: 550px) {
+  .App {
+    padding: 0 1rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .App {
+    width: 100%;
+    padding: 0 0.5rem;
+  }
+}

@@ -1,0 +1,139 @@
+.about {
+  font-family: var(--poppins);
+}
+.about_timeline {
+  display: flex;
+  gap: 20px;
+  padding-top: 2rem;
+}
+.education,
+.experience {
+  flex: 1;
+}
+.about_title {
+  text-align: center;
+  padding: 10px 0;
+  font-size: var(--fs-1);
+  color: var(--bluish);
+}
+.timeline_container {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.company_name {
+  font-size: var(--fs-4);
+}
+.timeline_desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.job_title {
+  font-size: var(--fs-4);
+  font-family: var(--satisfy);
+  color: var(--bluish);
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.job_date {
+  font-weight: 600;
+}
+.see_more_details {
+  position: absolute;
+  bottom: -25px;
+  right: 0px;
+  z-index: 20;
+  border-radius: 50%;
+  border: 1px solid var(--bluish);
+  color: var(--bluish);
+  font-size: var(--fs-3);
+  background: rgb(255, 255, 255);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timeline_details {
+  display: none;
+}
+.timeline_details_active {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+}
+.timeline_summary {
+  font-size: var(--fs-5);
+  font-weight: 500;
+}
+.bullet_point {
+  margin: 5px 30px;
+  list-style: disc;
+}
+@media screen and (max-width: 1200px) {
+  .about_timeline {
+    flex-direction: column;
+  }
+  .about_title {
+    font-size: var(--fs-2);
+  }
+}
+@media screen and (max-width: 750px) {
+  .timeline_details_active {
+    gap: 10px;
+    margin: 5px 10px;
+  }
+  .company_name,
+  .job_title {
+    font-size: var(--fs-5);
+  }
+  .job_date,
+  .timeline_summary {
+    font-size: var(--fs-6);
+  }
+}
+@media screen and (max-width: 520px) {
+  .timeline_container {
+    padding: 15px;
+    gap: 5px;
+  }
+  .about_title {
+    font-size: var(--fs-4);
+  }
+  .bullet_point {
+    font-size: var(--fs-6);
+    margin: 0 10px;
+  }
+  .see_more_details {
+    bottom: -18px;
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .timeline_desc {
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .timeline_container {
+    padding: 10px;
+  }
+  .company_name,
+  .job_title {
+    font-size: var(--fs-6);
+  }
+  .job_date {
+    font-size: 12px;
+  }
+}
