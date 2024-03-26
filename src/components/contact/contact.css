@@ -105,7 +105,7 @@ textarea {
 
   .input,
   .contact_button {
-    padding: 10px;
+    padding: 10px 15px;
     font-size: var(--fs-5);
   }
 
@@ -132,10 +132,14 @@ textarea {
   }
   .contact_details {
     padding: 0 10px;
+    gap: 10px;
   }
+  .contact_address span,
+  .contact_email span,
+  .contact_phone span,
+  .contact_desc,
   .input,
   .contact_button {
-    padding: 5px;
     font-size: var(--fs-6);
   }
 }
