@@ -21,13 +21,19 @@ const variants = {
 
 const Contact = ({ data }) => {
   return (
-    <motion.section variants={variants} initial='initial' whileInView="animate" className="contact section" id="contact">
-      <motion.div variants={variants} >
+    <motion.section
+      variants={variants}
+      initial="initial"
+      whileInView="animate"
+      className="contact section"
+      id="contact"
+    >
+      <motion.div variants={variants}>
         <motion.h1 variants={variants} className="title">
           contact me
         </motion.h1>
         <motion.h2 variants={variants} className="subtitle">
-          feel free to contact me
+          feel free to reach me
         </motion.h2>
       </motion.div>
 
