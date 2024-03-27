@@ -4,7 +4,8 @@
 .section {
   padding: 5rem 0;
 }
-.title,
+
+.title, 
 .subtitle {
   text-align: center;
   letter-spacing: 2px;

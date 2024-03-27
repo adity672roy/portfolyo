@@ -41,10 +41,12 @@
 a {
   text-decoration: none;
 }
+ 
 
 body {
   overflow-x: hidden;
   background: #f3efe9db;
+
   /* background: var(--white); */
   color: var(--dark-blue);
   font-family: var(--poppins);

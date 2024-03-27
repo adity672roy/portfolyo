@@ -8,7 +8,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Portfolio from "./components/portfolio/Portfolio";
 import About from "./components/about/About";
-import Hero from "./components/hero/Hero"; 
+import Hero from "./components/hero/Hero";
 
 const App = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -48,7 +48,7 @@ const App = () => {
         style={{ left: position.x - 15, top: position.y - 15 }}
       ></div>
       <Navbar />
-      <div className="App"> 
+      <div className="App">
         <Hero data={data} />
         <About data={data?.timeline} />
         <Services data={data?.services} />
