@@ -24,8 +24,7 @@
 
 .input,
 .contact_button {
-  outline: none;
-  font-family: var(--poppins);
+  outline: none; 
   font-size: var(--fs-4);
   border: 2px solid var(--bluish);
   border-radius: 1.3rem;
@@ -56,8 +55,7 @@ textarea {
 
 .contact_desc {
   font-size: var(--fs-3);
-  color: var(--light-gray);
-  font-family: var(--poppins);
+  color: var(--light-gray); 
   font-weight: 600;
 }
 
@@ -74,8 +72,7 @@ textarea {
 .contact_address span,
 .contact_email span,
 .contact_phone span {
-  font-size: var(--fs-3);
-  font-family: var(--poppins);
+  font-size: var(--fs-3); 
   color: var(--jet);
   font-weight: 600;
 }

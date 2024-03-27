@@ -27,13 +27,8 @@ const Hero = ({ data }) => {
     >
       <motion.div className="home_left" variants={variants}>
         <motion.div className="home_top" variants={variants}>
-          <p className="home_title">
-            HELLO , <span className="home_subtitle">My name is </span>
-          </p>
           <h2 className="home_name">{data?.about?.name}</h2>
-          <p className="home_title">
-            I AM <span className="home_subtitle">{data?.about?.title}</span>
-          </p>
+          <span className="home_subtitle">{data?.about?.title}</span>
         </motion.div>
         <motion.div className="home_middle" variants={variants}>
           <p className="home_desc">{data?.about?.description}</p>
@@ -50,9 +45,21 @@ const Hero = ({ data }) => {
               ))}
           </div>
           <div>
-            <button className="download_btn">
+            <motion.button
+              initial={{
+                backgroundColor: "white",
+              }}
+              whileHover={{
+                backgroundColor: "var(--bluish)",
+                color: "white",
+                transition: {
+                  duration: 1,  
+                },
+              }}
+              className="download_btn"
+            >
               <p>Download CV</p>
-            </button>
+            </motion.button>
           </div>
         </motion.div>
       </motion.div>

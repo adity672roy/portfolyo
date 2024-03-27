@@ -22,11 +22,12 @@
   flex-direction: column;
   padding: 6rem;
   gap: 20px;
+
 }
 .item {
   font-size: var(--fs-2);
   color: var(--eerie-black-dark);
-  font-weight: 600;
+  font-weight: 600;   
   font-family: var(--satisfy);
 }
 .item:hover {
@@ -48,14 +49,18 @@
 @media screen and (max-width: 450px) {
   .logo,
   .item {
-    font-size: var(--fs-5);
+    font-size: var(--fs-4);
   }
   .links {
-    padding-top: 6rem ;
-    padding-left: 10rem;
+    padding-top: 6rem ; 
   }
   .button {
     width: 40px;
     height: 40px;
   }
+}
+@media screen and (max-width: 360px){
+.links{
+  padding-left: 9rem;
+}
 }

@@ -4,8 +4,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   width: 100%;
-  padding-top: 3rem;
-  font-family: var(--poppins);
+  padding-top: 3rem; 
 }
 .project {
   padding: 10px;
@@ -30,6 +29,7 @@
 }
 .project_title {
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .view_project {
@@ -168,5 +168,7 @@
   .modal_details {
     padding: 10px;
   }
- 
+ .modal_description{
+  font-size: 12px;
+ }
 }

@@ -63,20 +63,15 @@
   opacity: 1;
   transform: scale(1);
 }
-.service_name,
-.service_desc,
-.service_charge {
-  font-family: var(--poppins);
-}
+ 
 .service_name {
   font-size: var(--fs-2);
   color: var(--bluish);
-  font-weight: 500;
+  font-weight: 600;
 }
 .service_desc {
   font-size: var(--fs-5);
-  color: var(--light-gray);
-  font-weight: 500;
+  color: var(--light-gray); 
 }
 .service_charge {
   font-size: var(--fs-3);

@@ -11,11 +11,10 @@
 }
 .title {
   font-size: var(--fs-1);
-  text-transform: uppercase;
-  font-family: var(--poppins);
+  text-transform: uppercase; 
 }
 .subtitle {
-  font-size: var(--fs-3);
+  font-size: var(--fs-4);
   font-family: var(--satisfy);
   text-transform: capitalize;
   color: var(--bluish);
@@ -34,7 +33,7 @@
     font-size: var(--fs-3);
   }
   .subtitle {
-    font-size: var(--fs-4);
+    font-size: var(--fs-5);
   }
 }
 @media screen and (max-width: 550px) {
@@ -46,5 +45,8 @@
   .App {
     width: 100%;
     padding: 0 0.5rem;
+  }
+  .subtitle{
+    font-size: var(--fs-6);
   }
 }

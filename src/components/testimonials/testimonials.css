@@ -23,11 +23,7 @@
   align-items: center;
   gap: 10px;
 }
-.testimonial_name,
-.testimonial_review,
-.testimonial_position {
-  font-family: var(--poppins);
-}
+ 
 .testimonial_name {
   font-size: var(--fs-5);
   color: var(--bluish);
@@ -39,7 +35,7 @@
   font-weight: 600;
 }
 .testimonial_section {
-  padding: 10px;
+  padding: 10px 5px;
 }
 .testimonial_review {
   font-size: 12px;

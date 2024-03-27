@@ -11,8 +11,7 @@
 .footer_desc {
   color: var(--eerie-black);
   font-size: var(--fs-6);
-  font-weight: 600;
-  font-family: var(--poppins);
+  font-weight: 600; 
 }
 .footer_name {
   color: var(--bluish);

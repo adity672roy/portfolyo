@@ -24,19 +24,16 @@
   width: 50px;
   height: 50px;
 }
-.skill_name {
-  font-family: var(--poppins);
+.skill_name { 
   font-weight: 600;
   font-size: var(--fs-5);
 }
-.skill_percentage {
-  font-family: var(--poppins);
+.skill_percentage { 
   font-weight: 600;
   font-size: var(--fs-5);
   color: var(--bluish);
 }
-.skill_desc {
-  font-family: var(--poppins);
+.skill_desc { 
   font-size: var(--fs-6);
   color: var(--light-gray);
   padding:20px;
@@ -45,14 +42,14 @@
 .skill_progress_bg {
   width: 100%;
   height: 2px;
-  background: var(--light-gray);
+  background: rgb(201, 201, 201);
   border-radius: 0.5rem;
   margin-top: 1rem;
 }
 .skill_progress {
   width: 0;
   height: 2px;
-  background-color: var(--eerie-black);
+  background-color: black;
   border-radius: 0.5rem;
 }
 @media  screen and (max-width:1220px) {
@@ -78,9 +75,7 @@
     .skill_img{
         width: 30px;height: 30px;
     }
-    .skill_name ,.skill_percentage{
-        font-size: var(--fs-6);
-    }
+   
 }
 @media  screen and (max-width:590px) {
     .skills_container{
