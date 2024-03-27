@@ -51,8 +51,8 @@
   left: 0;
   inset: 0;
   padding: 4rem 2rem;
-  opacity: 0;
-  background: linear-gradient(to bottom, #edf3d8, #f9e1e1);
+  opacity: 0; 
+  background: linear-gradient(to bottom, #edf3d8f7, #fff4f4f7);
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -65,17 +65,18 @@
 }
  
 .service_name {
-  font-size: var(--fs-2);
-  color: var(--bluish);
+  font-size: var(--fs-2);  
   font-weight: 600;
 }
 .service_desc {
   font-size: var(--fs-5);
   color: var(--light-gray); 
+  font-weight: 300;
 }
 .service_charge {
   font-size: var(--fs-3);
-  font-weight: 600;
+  font-weight: 500;
+  color: var(--bluish);
 }
 
 @media screen and (max-width: 1320px) {

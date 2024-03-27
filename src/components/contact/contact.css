@@ -65,8 +65,7 @@ textarea {
   font-family: var(--satisfy);
   font-weight: 600;
   font-size: var(--fs-3);
-  color: var(--bluish);
-  letter-spacing: 2px;
+  color: var(--bluish); 
 }
 
 .contact_address span,

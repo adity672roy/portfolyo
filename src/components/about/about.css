@@ -34,8 +34,7 @@
   font-size: var(--fs-4);
   font-family: var(--satisfy);
   color: var(--bluish);
-  font-weight: 600;
-  letter-spacing: 2px;
+  font-weight: 600; 
 }
 .job_date {
   font-weight: 600;
