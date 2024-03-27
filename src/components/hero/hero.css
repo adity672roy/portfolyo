@@ -145,9 +145,7 @@
   }
 }
 @media screen and (max-width: 560px) {
-  .home_name {
-    font-size: var(--fs-3);
-  }
+   
   .home_title {
     font-size: var(--fs-6);
   }
@@ -186,6 +184,7 @@
     border-radius:4rem;
     
   }
+
 }
 
 @media screen and (max-width: 380px) {
