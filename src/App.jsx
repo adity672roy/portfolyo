@@ -9,6 +9,7 @@ import Footer from "./components/footer/Footer";
 import Portfolio from "./components/portfolio/Portfolio";
 import About from "./components/about/About";
 import Hero from "./components/hero/Hero";
+import Home from "./components/home/Home";
 
 const App = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -49,7 +50,8 @@ const App = () => {
       ></div>
       <Navbar />
       <div className="App">
-        <Hero data={data} />
+        <Home data={data} />
+        {/* <Hero data={data} /> */}
         <About data={data?.timeline} />
         <Services data={data?.services} />
         <Skills data={data?.skills} />
